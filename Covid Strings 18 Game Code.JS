@@ -7,7 +7,7 @@ src.appendchild(this.img)
 filename=covid strings18gamecode.js
 java.awt graphics 
 <div id=header></div>
-jbutton random button
+random button
 new button (set random color)
 private final j button option button=
 new button (change color)
@@ -15,7 +15,7 @@ public fun with graphics()
 color panel=new j panel();
 add (panel,center)
 jpanel button panel=
-new j panel(flowlayout.center)
+new panel(flowlayout.center)
 buttonpanel.add(randombutton);
 random.button add actionlistener(new action listener)
 override 
@@ -134,7 +134,7 @@ answer checker
 scanner=new scanner(system.in)
 string correct answer
 string useranswer=scanner.nextline()
-if useranswer.equals((correctanswer))
+if useranswer.equals(correctanswer)
 system.out.print.in(correct)
 else:
 system.out.printin(incorrect)
