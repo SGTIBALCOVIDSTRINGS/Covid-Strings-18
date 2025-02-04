@@ -16,14 +16,14 @@ third lowest seed=seed6
 second lowest seed=seed7
 lowest overall seed=seed8
 covidstringsteamlist18=[blue,indigo,purple,black,orange,red,turquoise,burgundy]
-create matchup(red versus purple)
-create matchup(burgundy versus blue)
-create matchup(orange versus black)
-create matchup(turquoise versus indigo)
+matchup1=(red versus purple)
+matchup2=(burgundy versus blue)
+matchup3=(orange versus black)
+matchup4=(turquoise versus indigo)
 bracket =getelementbyid(bracket);
 document.createelement 
 matchupdiv.classname=(matchup)
-matchupdiv.innerHTML=[matchup]
+matchupdiv.inner html=[matchup]
 rounddiv.appendchild(matchup)
 for (i in covid strings first round)
 round div=create element
@@ -57,19 +57,22 @@ else:
 return false
 advancingteam=slice(current teams)
 declarewinner
-result=declarewinner(team1 score, team2 score)
+result=declarewinner(matchup1)
 if  purple score>=forty:
 console.log(purple brave hearts win)
 else:
 console.log(red protein spikers win)
+result=declarewinner(matchup2)
 if blue score>=forty:
 console.log(blue curve crushers win)
 else:
 console.log(burgundy rebuilders win)
+result=declarewinner(matchup3)
 if black score>=forty:
 console.log(black night riders win)
 else:
-console.log(orange rna messengers Win)
+console.log(orange rna messengers win)
+result=declarewinner(matchup4)
 if indigo score>=forty:
 console.log(indigo isos win)
 else:
