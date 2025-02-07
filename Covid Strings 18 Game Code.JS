@@ -4,17 +4,17 @@ this.img=document.createelement(covid)
 img.src=http://www.google.com/intl/en_com/images/logo_plain.png
 src=document getelementbyid(header)
 src.appendchild(this.img)
-filename=covid strings18gamecode.js
+filename=covid strings18.js
 java.awt graphics 
 <div id=header></div>
 random button
 new button (set random color)
-private final j button option button=
+option button
 new button (change color)
 public fun with graphics()
-color panel=new j panel();
+color panel=new panel();
 add (panel,center)
-jpanel button panel=
+button panel
 new panel(flowlayout.center)
 buttonpanel.add(randombutton);
 random.button add actionlistener(new action listener)
