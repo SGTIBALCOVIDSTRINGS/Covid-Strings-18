@@ -30,10 +30,10 @@ new button(set random color)
 option button
 new button (change color)
 public fun with graphics()
-jpanel color panel=new j panel();
+color panel=new j panel();
 this add (panel,center )
-jpanel button panel=
-new j panel (flowlayout.center)
+button panel=
+new  panel (flowlayout.center)
 buttonpanel.add(randombutton);
 random.button add actionlistener(new action listener)
 override 
