@@ -1,16 +1,49 @@
 doc.type.html
+html lang en 
 script
+header=document create.element(header)
+header.style.backgroundcolor=#4caf50
+header.style.color=’white’
+header.style.padding=’10px’
+header.style.textalign=’center’
+header.style.text.fontsize=’24px’
+header.textcontent=’welcome to covid strings18
+document appendchild(header)
+<header.html>
+heading variables 
+the heading numbers that determine where each heading and subheading go 
+heading1=keywords
+heading2=online references 
+heading3=script templates
 filename=covid strings 18 key words.js
+<header.html>
+keywords
+key search words for covid strings18
 covid strings 18 key word list=[similar falsehood,not questionable in 2020,best covid defense,supporters are morons,trump thinks he can joke,54-39,covid shots one exception,scientist said hello to his girlfriend,aaron rodgers immunization,created in a lab,new normal,covid has not killed,experimenting with new coronaviruses,long covid,covid retaliation false,jn1,one hopes vaccinations dont,covid did not elect,its easy to see]
+string manager non-concatenated
+insert string(entity,string)
+entity.element.text=string
+string manager insert string
+string=””
+string manager concatenated
+insert string(entity,string)
+entity.element.text=string
+string manager insert string
 string=””
 for string in covid strings search word list
 select characters
 edit diffuse property
 desired color=green
+<header.html>
+online references 
+links to articles that correspond to phrases in covid strings18
 covid strings 18 reference list=[a:how long does immunity last after covid-19? what we know (healthline.com),b:judges sound wary of trumps sweeping immunity claim |time,c:jimmy fallon,ariana grande,megan thee stallion drop collab (vulture.com),d:wake up! were still in a pandemic.and vaccines are our best defense against long covid.(msn.com),e:trump thinks supporters are bunch of morons:conservative commentator (msn.com),f:donald trump slammed for joking about people dying from covid-19 (msn.com),g:jimmy fallon - it was a (masked christmas) ft.ariana grande,megan thee stallion (youtube.com), 
 h:america is having a senior moment on vaccines (msn.com),i:donald trump speculates wildly about how covid-19 started:a scientist went out,said hello to his girlfriend...(msn.com),j:this is what aaron rodgers has said about his covid-19 vaccine status |cnn, k:is this the smoking gun for the covid lab leak? blueprint for creating a sars-cov virus with an altered spike protein in wuhan was published in 2018,bombshell new records show |daily mail online,l:long-term respiratory illness is here to stay (msn.com),m:is it dangerous to keep getting covid-19? (msn.com),
 n:china experimenting with new deadly coronavirus-like virus that is 100% fatal to mice (msn.com),o:long covid:damaged mitochondria in muscles might be linked to some of the symptoms (msn.com),p:trump muses:maybe covid-19 was punishment for his tariffs on china? (msn.com),q:new,highly mutated covid variants pirola ba.2.86 and jn.1 may cause more severe disease,new studies suggest (msn.com),r:tucker carlson video spreads falsehoods on covid-19 vaccines,who accord (msn.com),s:amazon.com:the plot to destroy democracy:how putin and his spies are undermining america and dismantling the west: 9780316484817: nance, malcolm, reiner, rob: libros,
 t:is this covid surge really the second biggest? heres what data shows.(msn.com)]
+<header.html>
+script templates
+code for accessing the references
 asset=this app.assets.find()
 template asset resource 
 entity template instantiate
