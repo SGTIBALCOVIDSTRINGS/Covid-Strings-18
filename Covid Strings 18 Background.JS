@@ -1,16 +1,34 @@
 doc.type.html
+html lang en 
 script
-filename=covidStrings18background.js
+header=document create.element(header)
+header.style.backgroundcolor=#4caf50
+header.style.color=’white’
+header.style.padding=’10px’
+header.style.textalign=’center’
+header.style.text.fontsize=’24px’
+header.textcontent=’covid strings18
+document appendchild(header)
+<header.html>
+heading variables 
+the heading numbers that determine where each heading and subheading go 
+heading1=#background overview
+heading2=#functions
+heading3=background code 
+<header.html>
+background overview
+background for covid strings18
+filename=covidstrings18background.js
 java.awt graphics 
 this.img=document.createelement(covid)
 img.src=http://www.google.com/intl/en_com/images/logo_plain.png
 src=document getelementbyid(header)
 src.appendchild(this.img)
 <div id=header></div>
-jbutton random button
-new jbutton(set random color)
-private final j button option button=
-new j button (change color)
+random button
+new button(set random color)
+option button
+new button (change color)
 public fun with graphics()
 jpanel color panel=new j panel();
 this add (panel,center )
@@ -21,10 +39,16 @@ random.button add actionlistener(new action listener)
 override 
 public actionperformed(actionevent e)
 random r= newrandom();
-colorpanel.setbackground(color panel(rnextInt(13),)(rnextint(13),)(rnextint(13),)(rnextint(13),)(rnextint(13),)(rnextint(13),)(rnextint(13),)(rnextint(13)(rnextint(13)(rnextint(13)(rnextint(13)(rnextint(13)(rnextint(13)))
+<header.html>
+background functions 
+functions used in covid strings18 background 
+colorpanel.setbackground(color panel(rnextint(13),)(rnextint(13),)(rnextint(13),)(rnextint(13),)(rnextint(13),)(rnextint(13),)(rnextint(13),)(rnextint(13)(rnextint(13)(rnextint(13)(rnextint(13)(rnextint(13)(rnextint(13)))
 buttonpanel.add(optionbutton);
 optionbutton.add actionlistener(new action listener)
 override 
+<header.html>
+background code 
+code to program game background
 public actionperformed(actionevent e)
 color m=jcolorchooser.showdialog(funwithgraphics.this,)
 if(multi!=null)
